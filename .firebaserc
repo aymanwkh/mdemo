@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "dokaneh-prod"
+  },
+  "targets": {
+    "dokaneh-prod": {
+      "hosting": {
+        "erpdemo": [
+          "erpdemo"
+        ],
+        "erpedemo": [
+          "erpedemo"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,32 @@
+{
+  "hosting": [
+    {
+      "target": "erpdemo",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [ {
+        "source": "**",
+        "destination": "/index.html"
+      } ]
+
+    },
+    {
+      "target": "erpedemo",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [ {
+        "source": "**",
+        "destination": "/index.html"
+      } ]
+
+    }
+  ]
+}
